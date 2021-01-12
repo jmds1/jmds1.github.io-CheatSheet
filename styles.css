@@ -1,0 +1,77 @@
+/* ******  NAV BAR SECTION ****** */
+/* ****************************** */
+
+/* this is for the background of the nav bar */
+header {
+  background-color: aliceblue;
+}
+/* this deals with the text in the navigation bar at the top of the page */
+
+.navi {
+  text-align: center;
+  color: rgb(255, 123, 145);
+}
+
+a {
+  background-color: transparent;
+  color: rgb(255, 123, 145);
+}
+/* this affects the items within the gray box in the nav bar */
+li {
+  display: inline-block;
+  font-size: large;
+  margin: 10px;
+}
+
+li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* this is for the list of topics*/
+#topics {
+  list-style-type: none;
+  margin: 20px;
+  padding: 20px 20px;
+  border: 3px solid rgb(145, 145, 145);
+}
+
+/* #back-img {
+  background-position: center;
+  max-height: 100px;
+
+} */
+
+/* ******  TABLE SECTION ****** */
+/* ****************************** */
+#html-ref {
+  padding-top: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.html-info {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.html-info th,
+td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+  font-family: monospace;
+}
+
+/* This makes every other row in the table a different color */
+tr:nth-child(even) {
+  background-color: rgba(255, 123, 145, 0.4);
+}
+
+th {
+  background-color: aliceblue;
+}
+
+td:hover {
+  background-color: chartreuse;
+}
